@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="sampleAngular">
+    <head>
+        <meta charset="UTF-8">
+        <title>Main Page</title>
+        <link rel="stylesheet" href="./bower_components/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./bower_components/font-awesome/css/font-awesome.min.css">
+    </head>
+    <body>
+        <h2 ng-controller="MainController">
+            {{message}}
+        </h2>
+
+        <!--Dependencies-->
+        <!--<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular.min.js"></script>-->
+        <script src="./bower_components/angular/angular.js"></script>
+        <script src="app/app.js"></script>
+
+        <script src="app/filters/number-mask.filter.js"></script>
+        <script src="app/services/user.service.js"></script>
+
+        <script src="app/controllers/main.controller.js"></script>
+    </body>
+</html>

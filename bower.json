@@ -1,0 +1,23 @@
+{
+  "name": "SampleAngularJS",
+  "authors": [
+    "Prakash kumar Chakka <mail@prakash.io>"
+  ],
+  "description": "Sample App for Angular",
+  "main": "index.html",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.6",
+    "font-awesome": "~4.5.0",
+    "angular": "angularjs#1.4"
+  }
+}
