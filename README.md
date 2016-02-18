@@ -6,8 +6,7 @@
  Angular
 
 
-
- ## Things to install in your system
+## Things to install in your system
  WebStorm
  NodeJS, NPM - SIngle installer for NodeJS
  Bower
